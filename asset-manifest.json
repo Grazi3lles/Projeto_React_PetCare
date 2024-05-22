@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Projeto_React_PetCare/static/css/main.ce80921c.css",
+    "main.js": "/Projeto_React_PetCare/static/js/main.219cf7b3.js",
+    "static/js/453.605bfaa4.chunk.js": "/Projeto_React_PetCare/static/js/453.605bfaa4.chunk.js",
+    "static/media/Dog1.png": "/Projeto_React_PetCare/static/media/Dog1.ed159d640a9f610bd644.png",
+    "static/media/FormDog.png": "/Projeto_React_PetCare/static/media/FormDog.cfaa906e8a48220ac94a.png",
+    "static/media/LogoPetCare.png": "/Projeto_React_PetCare/static/media/LogoPetCare.d965446e19c832e7b7c7.png",
+    "static/media/PetIcon.svg": "/Projeto_React_PetCare/static/media/PetIcon.7249c156bb687cbf77d0d7638e6aa8b7.svg",
+    "index.html": "/Projeto_React_PetCare/index.html",
+    "main.ce80921c.css.map": "/Projeto_React_PetCare/static/css/main.ce80921c.css.map",
+    "main.219cf7b3.js.map": "/Projeto_React_PetCare/static/js/main.219cf7b3.js.map",
+    "453.605bfaa4.chunk.js.map": "/Projeto_React_PetCare/static/js/453.605bfaa4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce80921c.css",
+    "static/js/main.219cf7b3.js"
+  ]
+}
