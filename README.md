@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Projeto React PetCare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação React que auxilia na escolha do melhor pet shop com base no preço e na distância.
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+A aplicação calcula o melhor preço entre diferentes pet shops utilizando lógica implementada em JavaScript. Em caso de valores iguais, o critério de desempate é a menor distância.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- HTML
+- CSS
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+- *calculadora.js*: Contém a lógica para o cálculo do melhor preço.
+- *src/components*: Contém os componentes React da aplicação.
+- *src/assets*: Contém as imagens utilizadas na aplicação.
+- Informações sobre pet shops: Em formato de objeto JavaScript.
+- Um array com todos os preços pode ser visto no console, para fins de curiosidade.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inputs
 
-### `npm run build`
+O projeto recebe os seguintes inputs:
+- Data
+- Número de cachorros grandes
+- Número de cachorros pequenos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Saída
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O projeto retorna o nome e o preço do pet shop com o melhor preço.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso
 
-### `npm run eject`
+Para visualizar a aplicação em funcionamento, acesse o link: [Projeto React PetCare](https://grazi3lles.github.io/Projeto_React_PetCare/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para executar o projeto localmente, siga os passos abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone o repositório:
+    sh
+    git clone https://github.com/grazi3lles/Projeto_React_PetCare.git
+    
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navegue até o diretório do projeto:
+    sh
+    cd Projeto_React_PetCare
+    
 
-## Learn More
+3. Instale as dependências:
+    sh
+    npm install
+    
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Inicie a aplicação:
+    sh
+    npm start
+    
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autora
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* *Grazi3lles* - [GitHub](https://github.com/grazi3lles)
