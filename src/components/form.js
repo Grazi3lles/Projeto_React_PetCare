@@ -52,7 +52,7 @@ const Formulario = () => {
         const nome = document.querySelector('.Nome');
         nome.textContent = MaisBarato[0].nome;
         const price = document.querySelector('.preço');
-        price.textContent = "-  R$"+MaisBarato[0].total+",00";
+        price.textContent = "  R$"+MaisBarato[0].total+",00";
 
         
         if(verified==true){

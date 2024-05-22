@@ -13,6 +13,7 @@
     "swiper": "^11.1.3",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://Grazi3lles.github.io/Projeto_React_PetCare",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -40,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  },
-  "homepage": "https://Grazi3lles.github.io/Projeto_React_PetCare"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1"
+  }
 }
